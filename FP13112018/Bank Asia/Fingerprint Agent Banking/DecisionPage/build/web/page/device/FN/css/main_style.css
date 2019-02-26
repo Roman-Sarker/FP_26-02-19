@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 1, 2018, 12:11:54 PM
+    Author     : Sultan
+*/
+
+#fingerframe{
+    border: 1px solid #336699;
+    border-radius : 15px;
+    box-shadow: none; 
+}
+
+#fingerframe:hover {
+    box-shadow: 8px 8px 5px #888888;
+    border: 3px solid #336699;
+    background: #FFFF99;
+}
+ 
+
+.modal-header { 
+    padding: 0.2rem;
+}
+
+
+#submit_btn{
+    position:absolute !important; 
+    top:1px !important; 
+    left:5px !important;
+    width:170px !important;
+    color: rgb(255, 255, 255);  
+    background-color: rgb(111, 43, 43); 
+    border-radius: 5px 5px 5px 5px;
+    background-image: -moz-linear-gradient(center center , rgb(111, 43, 43) 0%, rgb(111, 43, 43) 100%);              
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid rgb(111, 43, 43); 
+    height: 44px;  
+    font-weight: bold;
+    cursor: pointer;
+    text-align: top;line-height: 1.22em;
+    font-size: 13px !important;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}  
+
+ 
+
+.mandatoryBtn{
+    background: #f00000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f00000, #dc281e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f00000, #dc281e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:#ffffff; 
+}   
+
+.optionalBtn{
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:#ffffff;
+}
+ 
+
+#button{   
+    padding: 10px !important;width:200px;
+    text-decoration:none !important;        
+    background-color: #0B70BE;
+    background-image: -moz-linear-gradient(center center , rgb(11, 112, 190) 0%, rgb(11, 112, 190) 100%) !important;
+    border-radius: 2px !important;
+    border: 2px solid rgb(43, 125, 185) !important;
+    font-weight: bold;
+    font-size: 13px !important;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    height: 44px !important;
+    text-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+ol.horizontal{
+    list-style-type:lower-roman;
+    width: 800px;
+}
+
+ol.horizontal li{
+    float: left;
+    width: 135px;
+    padding: 5px 0px;
+}
+
+
+
+.info_alert {
+    background-image: url(../../../assets/images/info.png);
+    border: 1px solid #CCCCCC;
+    background-color: #E0E0E0;
+    padding: 15px 15px 15px 45px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px #999;
+    margin: 10px 0px;
+}
+
+.warning_alert {
+    background-image: url(../../../assets/images/warning.png);
+    border: 1px solid #FE7736;
+    background-color: #FFBD59;
+    padding: 15px 15px 15px 45px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px #999;
+    margin: 10px 0px;
+    color: white;
+}
+
+.danger_alert {
+    background-image: url(../../../assets/images/danger.png);
+    border: 1px solid #FF0F0F;
+    background-color: #FF8080;
+    padding: 15px 15px 15px 45px;
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px #999;
+    margin: 10px 0px;
+    color: white;
+}
+
+.success_alert {
+    background-image: url(../../../assets/images/success.png);
+    border: 1px solid #83CD52;
+    background-color: #8DE182;
+    padding: 15px 15px 15px 45px;
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px #999;
+    margin: 10px 0px;
+    color: #060;
+}
